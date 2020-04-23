@@ -21,10 +21,17 @@ puts take_number_greeting
 end
 
 def now_serving(new_deli)
+<<<<<<< HEAD
 if new_deli.length == 0
   puts "There is nobody waiting to be served!"
 elsif new_deli.length > 0
   puts "Currently serving #{new_deli.shift()}."
+=======
+if new_deli = 0
+  puts "There is nobody waiting to be served!"
+elsif new_deli.length > 0  
+  puts "Currently serving #{new_deli.shift}."
+>>>>>>> 174ff6197b96ee05766f5194cbd2ca46fbeff49b
 end
 end
 
